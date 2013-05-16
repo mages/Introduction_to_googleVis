@@ -1,7 +1,8 @@
 Introduction to googleVis
 =========================
 
-Slides for the avanced R workshop at Lancaster University, 21 May 2013
+[Slides](http://mages.github.io/Introduction_to_googleVis/) for the avanced R workshop at Lancaster University, 21 May 2013
+
 
 ### License 
 
