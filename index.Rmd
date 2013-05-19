@@ -240,7 +240,7 @@ plot(gvisMotionChart(Fruits, "Fruit", "Year",
 
 ## Displaying geographical information
 
-Plot countries' S&P credit rating sourced from Wikipedia
+Plot countries' S&P credit rating sourced from Wikipedia (requires googleVis 0.4.3)
 ```{r tidy=FALSE}
 library(XML)
 url <- "http://en.wikipedia.org/wiki/List_of_countries_by_credit_rating"

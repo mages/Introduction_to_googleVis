@@ -116,15 +116,15 @@ library(googleVis)
 plot(gvisMotionChart(Fruits, "Fruit", "Year", options = list(width = 600, height = 400)))
 ```
 
-<!-- MotionChart generated in R 3.0.0 by googleVis 0.4.3 package -->
-<!-- Wed May 15 23:04:02 2013 -->
+<!-- MotionChart generated in R 3.0.1 by googleVis 0.4.3 package -->
+<!-- Sun May 19 13:23:39 2013 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID26a273ec108d () {
+function gvisDataMotionChartID2f752842a322 () {
   var data = new google.visualization.DataTable();
   var datajson =
 [
@@ -222,14 +222,14 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID26a273ec108d() {
-  var data = gvisDataMotionChartID26a273ec108d();
+function drawChartMotionChartID2f752842a322() {
+  var data = gvisDataMotionChartID2f752842a322();
   var options = {};
 options["width"] =    600;
 options["height"] =    400;
 
      var chart = new google.visualization.MotionChart(
-       document.getElementById('MotionChartID26a273ec108d')
+       document.getElementById('MotionChartID2f752842a322')
      );
      chart.draw(data,options);
     
@@ -253,9 +253,9 @@ options["height"] =    400;
     pkgs.push(chartid);
 
   // Add the drawChart function to the global list of callbacks
-  callbacks.push(drawChartMotionChartID26a273ec108d);
+  callbacks.push(drawChartMotionChartID2f752842a322);
 })();
-function displayChartMotionChartID26a273ec108d() {
+function displayChartMotionChartID2f752842a322() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -279,11 +279,11 @@ function displayChartMotionChartID26a273ec108d() {
  </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID26a273ec108d"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID2f752842a322"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID26a273ec108d"
+<div id="MotionChartID2f752842a322"
   style="width: 600px; height: 400px;">
 </div>
 
@@ -389,15 +389,15 @@ Options in googleVis have to follow the Google Chart API options
 plot(Line)
 ```
 
-<!-- LineChart generated in R 3.0.0 by googleVis 0.4.3 package -->
-<!-- Wed May 15 23:04:03 2013 -->
+<!-- LineChart generated in R 3.0.1 by googleVis 0.4.3 package -->
+<!-- Sun May 19 13:23:39 2013 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataLineChartID26a2f32d470 () {
+function gvisDataLineChartID2f752ee421d4 () {
   var data = new google.visualization.DataTable();
   var datajson =
 [
@@ -425,8 +425,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartLineChartID26a2f32d470() {
-  var data = gvisDataLineChartID26a2f32d470();
+function drawChartLineChartID2f752ee421d4() {
+  var data = gvisDataLineChartID2f752ee421d4();
   var options = {};
 options["allowHtml"] = true;
 options["title"] = "Hello World";
@@ -443,7 +443,7 @@ options["width"] =    500;
 options["height"] =    300;
 
      var chart = new google.visualization.LineChart(
-       document.getElementById('LineChartID26a2f32d470')
+       document.getElementById('LineChartID2f752ee421d4')
      );
      chart.draw(data,options);
     
@@ -467,9 +467,9 @@ options["height"] =    300;
     pkgs.push(chartid);
 
   // Add the drawChart function to the global list of callbacks
-  callbacks.push(drawChartLineChartID26a2f32d470);
+  callbacks.push(drawChartLineChartID2f752ee421d4);
 })();
-function displayChartLineChartID26a2f32d470() {
+function displayChartLineChartID2f752ee421d4() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -493,11 +493,11 @@ function displayChartLineChartID26a2f32d470() {
  </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID26a2f32d470"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID2f752ee421d4"></script>
  
 <!-- divChart -->
   
-<div id="LineChartID26a2f32d470"
+<div id="LineChartID2f752ee421d4"
   style="width: 500px; height: 300px;">
 </div>
 
@@ -512,15 +512,15 @@ You can enable the chart editor which allows users to change the chart.
 plot(gvisLineChart(df, options = list(gvis.editor = "Edit me!", height = 350)))
 ```
 
-<!-- LineChart generated in R 3.0.0 by googleVis 0.4.3 package -->
-<!-- Wed May 15 23:04:03 2013 -->
+<!-- LineChart generated in R 3.0.1 by googleVis 0.4.3 package -->
+<!-- Sun May 19 13:23:39 2013 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataLineChartID26a252190cdb () {
+function gvisDataLineChartID2f75368fd59 () {
   var data = new google.visualization.DataTable();
   var datajson =
 [
@@ -548,31 +548,31 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartLineChartID26a252190cdb() {
-  var data = gvisDataLineChartID26a252190cdb();
+function drawChartLineChartID2f75368fd59() {
+  var data = gvisDataLineChartID2f75368fd59();
   var options = {};
 options["allowHtml"] = true;
 options["height"] =    350;
 
-    chartLineChartID26a252190cdb = new google.visualization.ChartWrapper({
+    chartLineChartID2f75368fd59 = new google.visualization.ChartWrapper({
          dataTable: data,       
          chartType: 'LineChart',
-         containerId: 'LineChartID26a252190cdb',
+         containerId: 'LineChartID2f75368fd59',
          options: options
     });
-    chartLineChartID26a252190cdb.draw();
+    chartLineChartID2f75368fd59.draw();
     
 
 }
 
-  function openEditorLineChartID26a252190cdb() {
+  function openEditorLineChartID2f75368fd59() {
       var editor = new google.visualization.ChartEditor();
       google.visualization.events.addListener(editor, 'ok',
         function() { 
-          chartLineChartID26a252190cdb = editor.getChartWrapper();  
-          chartLineChartID26a252190cdb.draw(document.getElementById('LineChartID26a252190cdb')); 
+          chartLineChartID2f75368fd59 = editor.getChartWrapper();  
+          chartLineChartID2f75368fd59.draw(document.getElementById('LineChartID2f75368fd59')); 
       }); 
-      editor.openDialog(chartLineChartID26a252190cdb);
+      editor.openDialog(chartLineChartID2f75368fd59);
   }
     
  
@@ -592,9 +592,9 @@ options["height"] =    350;
     pkgs.push(chartid);
 
   // Add the drawChart function to the global list of callbacks
-  callbacks.push(drawChartLineChartID26a252190cdb);
+  callbacks.push(drawChartLineChartID2f75368fd59);
 })();
-function displayChartLineChartID26a252190cdb() {
+function displayChartLineChartID2f75368fd59() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -618,11 +618,11 @@ function displayChartLineChartID26a252190cdb() {
  </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID26a252190cdb"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID2f75368fd59"></script>
  
 <!-- divChart -->
-<input type='button' onclick='openEditorLineChartID26a252190cdb()' value='Edit me!'/>  
-<div id="LineChartID26a252190cdb"
+<input type='button' onclick='openEditorLineChartID2f75368fd59()' value='Edit me!'/>  
+<div id="LineChartID2f75368fd59"
   style="width: 600px; height: 350px;">
 </div>
 
@@ -636,15 +636,15 @@ function displayChartLineChartID26a252190cdb() {
 plot(gvisMotionChart(Fruits, "Fruit", "Year", options = list(width = 500, height = 350)))
 ```
 
-<!-- MotionChart generated in R 3.0.0 by googleVis 0.4.3 package -->
-<!-- Wed May 15 23:04:03 2013 -->
+<!-- MotionChart generated in R 3.0.1 by googleVis 0.4.3 package -->
+<!-- Sun May 19 13:23:39 2013 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID26a26a9b27f8 () {
+function gvisDataMotionChartID2f7561d0dfce () {
   var data = new google.visualization.DataTable();
   var datajson =
 [
@@ -742,14 +742,14 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID26a26a9b27f8() {
-  var data = gvisDataMotionChartID26a26a9b27f8();
+function drawChartMotionChartID2f7561d0dfce() {
+  var data = gvisDataMotionChartID2f7561d0dfce();
   var options = {};
 options["width"] =    500;
 options["height"] =    350;
 
      var chart = new google.visualization.MotionChart(
-       document.getElementById('MotionChartID26a26a9b27f8')
+       document.getElementById('MotionChartID2f7561d0dfce')
      );
      chart.draw(data,options);
     
@@ -773,9 +773,9 @@ options["height"] =    350;
     pkgs.push(chartid);
 
   // Add the drawChart function to the global list of callbacks
-  callbacks.push(drawChartMotionChartID26a26a9b27f8);
+  callbacks.push(drawChartMotionChartID2f7561d0dfce);
 })();
-function displayChartMotionChartID26a26a9b27f8() {
+function displayChartMotionChartID2f7561d0dfce() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -799,11 +799,11 @@ function displayChartMotionChartID26a26a9b27f8() {
  </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID26a26a9b27f8"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID2f7561d0dfce"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID26a26a9b27f8"
+<div id="MotionChartID2f7561d0dfce"
   style="width: 500px; height: 350px;">
 </div>
 
@@ -823,15 +823,15 @@ plot(gvisMotionChart(Fruits, "Fruit", "Year",
       options=list(state=myStateSettings, height=320)))
 ```
 
-<!-- MotionChart generated in R 3.0.0 by googleVis 0.4.3 package -->
-<!-- Wed May 15 23:04:03 2013 -->
+<!-- MotionChart generated in R 3.0.1 by googleVis 0.4.3 package -->
+<!-- Sun May 19 13:23:39 2013 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID26a2705d4175 () {
+function gvisDataMotionChartID2f7558157f8d () {
   var data = new google.visualization.DataTable();
   var datajson =
 [
@@ -929,15 +929,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID26a2705d4175() {
-  var data = gvisDataMotionChartID26a2705d4175();
+function drawChartMotionChartID2f7558157f8d() {
+  var data = gvisDataMotionChartID2f7558157f8d();
   var options = {};
 options["width"] =    600;
 options["height"] =    320;
 options["state"] = "\n{\"iconType\":\"LINE\", \"dimensions\":{\n    \"iconDimensions\":[\"dim0\"]},\"xAxisOption\":\"_TIME\",\n    \"orderedByX\":false,\"orderedByY\":false,\"yZoomedDataMax\":100}\n";
 
      var chart = new google.visualization.MotionChart(
-       document.getElementById('MotionChartID26a2705d4175')
+       document.getElementById('MotionChartID2f7558157f8d')
      );
      chart.draw(data,options);
     
@@ -961,9 +961,9 @@ options["state"] = "\n{\"iconType\":\"LINE\", \"dimensions\":{\n    \"iconDimens
     pkgs.push(chartid);
 
   // Add the drawChart function to the global list of callbacks
-  callbacks.push(drawChartMotionChartID26a2705d4175);
+  callbacks.push(drawChartMotionChartID2f7558157f8d);
 })();
-function displayChartMotionChartID26a2705d4175() {
+function displayChartMotionChartID2f7558157f8d() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -987,11 +987,11 @@ function displayChartMotionChartID26a2705d4175() {
  </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID26a2705d4175"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID2f7558157f8d"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID26a2705d4175"
+<div id="MotionChartID2f7558157f8d"
   style="width: 600px; height: 320px;">
 </div>
 
@@ -1000,7 +1000,7 @@ function displayChartMotionChartID26a2705d4175() {
 
 ## Displaying geographical information
 
-Plot countries' S&P credit rating sourced from Wikipedia
+Plot countries' S&P credit rating sourced from Wikipedia (requires googleVis 0.4.3)
 
 ```r
 library(XML)
@@ -1026,15 +1026,15 @@ G <- gvisGeoChart(x, "Country", "Ranking", hovervar="Rating",
 plot(G)
 ```
 
-<!-- GeoChart generated in R 3.0.0 by googleVis 0.4.3 package -->
-<!-- Wed May 15 23:04:04 2013 -->
+<!-- GeoChart generated in R 3.0.1 by googleVis 0.4.3 package -->
+<!-- Sun May 19 13:23:40 2013 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataGeoChartID26a27a74a1f4 () {
+function gvisDataGeoChartID2f756b692f28 () {
   var data = new google.visualization.DataTable();
   var datajson =
 [
@@ -1414,8 +1414,8 @@ function gvisDataGeoChartID26a27a74a1f4 () {
 1 
 ],
 [
- "Template:Country data FYROM",
-"Template:Country data FYROM: BB",
+ "Macedonia",
+"Macedonia: BB",
 13 
 ],
 [
@@ -1687,32 +1687,32 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartGeoChartID26a27a74a1f4() {
-  var data = gvisDataGeoChartID26a27a74a1f4();
+function drawChartGeoChartID2f756b692f28() {
+  var data = gvisDataGeoChartID2f756b692f28();
   var options = {};
 options["width"] =    556;
 options["height"] =    347;
 options["colorAxis"] = {colors:['#91BFDB', '#FC8D59']};
 
-    chartGeoChartID26a27a74a1f4 = new google.visualization.ChartWrapper({
+    chartGeoChartID2f756b692f28 = new google.visualization.ChartWrapper({
          dataTable: data,       
          chartType: 'GeoChart',
-         containerId: 'GeoChartID26a27a74a1f4',
+         containerId: 'GeoChartID2f756b692f28',
          options: options
     });
-    chartGeoChartID26a27a74a1f4.draw();
+    chartGeoChartID2f756b692f28.draw();
     
 
 }
 
-  function openEditorGeoChartID26a27a74a1f4() {
+  function openEditorGeoChartID2f756b692f28() {
       var editor = new google.visualization.ChartEditor();
       google.visualization.events.addListener(editor, 'ok',
         function() { 
-          chartGeoChartID26a27a74a1f4 = editor.getChartWrapper();  
-          chartGeoChartID26a27a74a1f4.draw(document.getElementById('GeoChartID26a27a74a1f4')); 
+          chartGeoChartID2f756b692f28 = editor.getChartWrapper();  
+          chartGeoChartID2f756b692f28.draw(document.getElementById('GeoChartID2f756b692f28')); 
       }); 
-      editor.openDialog(chartGeoChartID26a27a74a1f4);
+      editor.openDialog(chartGeoChartID2f756b692f28);
   }
     
  
@@ -1732,9 +1732,9 @@ options["colorAxis"] = {colors:['#91BFDB', '#FC8D59']};
     pkgs.push(chartid);
 
   // Add the drawChart function to the global list of callbacks
-  callbacks.push(drawChartGeoChartID26a27a74a1f4);
+  callbacks.push(drawChartGeoChartID2f756b692f28);
 })();
-function displayChartGeoChartID26a27a74a1f4() {
+function displayChartGeoChartID2f756b692f28() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1758,11 +1758,11 @@ function displayChartGeoChartID26a27a74a1f4() {
  </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID26a27a74a1f4"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID2f756b692f28"></script>
  
 <!-- divChart -->
-<input type='button' onclick='openEditorGeoChartID26a27a74a1f4()' value='S&P'/>  
-<div id="GeoChartID26a27a74a1f4"
+<input type='button' onclick='openEditorGeoChartID2f756b692f28()' value='S&P'/>  
+<div id="GeoChartID2f756b692f28"
   style="width: 556px; height: 347px;">
 </div>
 
@@ -1792,8 +1792,8 @@ G <- gvisGeoChart(eq, "loc", "Depth", "Magnitude",
 plot(G)
 ```
 
-<!-- GeoChart generated in R 3.0.0 by googleVis 0.4.3 package -->
-<!-- Wed May 15 23:04:04 2013 -->
+<!-- GeoChart generated in R 3.0.1 by googleVis 0.4.3 package -->
+<!-- Sun May 19 13:23:41 2013 -->
 
 
 <!-- jsHeader -->
@@ -1805,9 +1805,783 @@ function gvisDataEQ () {
   var datajson =
 [
  [
- 33.66,
--118.375,
-1.5,
+ 12.647,
+-89.103,
+35,
+4.3 
+],
+[
+ -30.568,
+-177.751,
+7.5,
+4.8 
+],
+[
+ 52.313,
+159.942,
+61.6,
+4.3 
+],
+[
+ 37.484,
+144.564,
+35.2,
+4.5 
+],
+[
+ 36.927,
+-104.72,
+5,
+2.5 
+],
+[
+ 36.743,
+5.279,
+12.7,
+4.9 
+],
+[
+ -37.628,
+177.943,
+185.7,
+4.5 
+],
+[
+ -45.276,
+167.308,
+10.1,
+4.2 
+],
+[
+ 62.895,
+-150.143,
+127.9,
+2.9 
+],
+[
+ 5.112,
+94.29,
+60.3,
+4.7 
+],
+[
+ 18.978,
+-68.486,
+103,
+3.6 
+],
+[
+ 62.589,
+-25.465,
+10,
+4.4 
+],
+[
+ 36.376,
+143.301,
+11,
+4.9 
+],
+[
+ 40.322,
+-124.39,
+20.7,
+2.9 
+],
+[
+ 19.082,
+-65.241,
+8,
+2.9 
+],
+[
+ 19.597,
+-66.36,
+60,
+3.1 
+],
+[
+ -17.099,
+-70.706,
+85.8,
+4.8 
+],
+[
+ -21.54,
+-68.332,
+141.9,
+4 
+],
+[
+ 37.81,
+142.437,
+38.6,
+4.3 
+],
+[
+ 62.006,
+-150.956,
+67.2,
+2.6 
+],
+[
+ 56.219,
+163.253,
+11.7,
+5 
+],
+[
+ 18.943,
+-64.671,
+8,
+2.7 
+],
+[
+ 53.301,
+-166.903,
+78.5,
+2.7 
+],
+[
+ 17.423,
+-62.008,
+20.3,
+4.8 
+],
+[
+ 52.883,
+158.876,
+85.3,
+4.7 
+],
+[
+ 52.672,
+158.942,
+73.8,
+4.9 
+],
+[
+ 53.562,
+-165.419,
+31.4,
+2.5 
+],
+[
+ 63.618,
+-147.806,
+4.8,
+2.9 
+],
+[
+ 19.447,
+-66.267,
+59,
+3.3 
+],
+[
+ 56.084,
+164.637,
+30.9,
+4.7 
+],
+[
+ 60.288,
+-152.958,
+117.8,
+3.3 
+],
+[
+ -28.374,
+178.649,
+609.4,
+5 
+],
+[
+ 40.441,
+-124.477,
+22.9,
+3.8 
+],
+[
+ -8.966,
+124.14,
+94.5,
+4.7 
+],
+[
+ 52.49,
+-171.701,
+24,
+2.9 
+],
+[
+ 40.316,
+-124.354,
+19.4,
+4.3 
+],
+[
+ 19.522,
+-66.324,
+13,
+3.3 
+],
+[
+ 19.48,
+-66.309,
+52,
+3.4 
+],
+[
+ 33.22,
+-115.539,
+null,
+2.5 
+],
+[
+ 26.57,
+57.779,
+10,
+4.4 
+],
+[
+ -21.182,
+168.517,
+24.4,
+4.9 
+],
+[
+ 26.768,
+57.778,
+9.7,
+5.5 
+],
+[
+ 26.688,
+57.811,
+9.9,
+5.6 
+],
+[
+ 33.556,
+-118.371,
+null,
+3.3 
+],
+[
+ 19.483,
+-66.34,
+13,
+3.1 
+],
+[
+ 37.813,
+142.383,
+29,
+4.5 
+],
+[
+ 6.546,
+-82.387,
+7.9,
+4.6 
+],
+[
+ 52.198,
+160.302,
+40,
+4.4 
+],
+[
+ 19.765,
+-156.095,
+9.6,
+2.7 
+],
+[
+ 37.745,
+141.494,
+34.3,
+6 
+],
+[
+ 19.288,
+-66.354,
+72,
+3.1 
+],
+[
+ -17.892,
+-178.628,
+630.7,
+4.6 
+],
+[
+ 59.1,
+-152.832,
+70.3,
+3.3 
+],
+[
+ 19.388,
+-66.334,
+85,
+3.4 
+],
+[
+ 19.538,
+-66.295,
+13,
+2.8 
+],
+[
+ -40.486,
+-91.379,
+10,
+4.9 
+],
+[
+ 19.492,
+-66.319,
+25,
+3.5 
+],
+[
+ -53.107,
+22.122,
+9.7,
+5.6 
+],
+[
+ 52.375,
+159.851,
+64.1,
+4.4 
+],
+[
+ 19.513,
+-66.309,
+44,
+3.3 
+],
+[
+ 61.504,
+-140.689,
+0.1,
+2.6 
+],
+[
+ 38.806,
+-122.791,
+1.3,
+2.6 
+],
+[
+ 60.162,
+-153.031,
+121.9,
+2.5 
+],
+[
+ 37.633,
+124.58,
+13.5,
+4.8 
+],
+[
+ -35.23,
+-105.841,
+10.1,
+4.8 
+],
+[
+ 49.447,
+-120.538,
+null,
+2.5 
+],
+[
+ 1.359,
+98.946,
+115.8,
+4.2 
+],
+[
+ -6.134,
+149.919,
+65.8,
+4.8 
+],
+[
+ 45.767,
+-76.346,
+18,
+3.1 
+],
+[
+ 37.378,
+-119.038,
+10.8,
+3 
+],
+[
+ 19.306,
+-66.033,
+46,
+3 
+],
+[
+ -10.483,
+-75.225,
+39.2,
+4.5 
+],
+[
+ 54.668,
+-153.735,
+9.8,
+3.5 
+],
+[
+ 45.727,
+-76.329,
+5,
+3.6 
+],
+[
+ 45.767,
+-76.397,
+9.8,
+4.4 
+],
+[
+ 18.497,
+-67.412,
+17,
+2.6 
+],
+[
+ 46.94,
+-113.309,
+11.6,
+2.8 
+],
+[
+ -20.793,
+-178.748,
+595.5,
+4.7 
+],
+[
+ 17.65,
+-66.271,
+32,
+3.1 
+],
+[
+ -6.245,
+154.412,
+69.3,
+5.4 
+],
+[
+ -19.192,
+-69.201,
+120.1,
+4.4 
+],
+[
+ -11.085,
+165.082,
+10.3,
+5.7 
+],
+[
+ 31.559,
+86.467,
+27.6,
+4.4 
+],
+[
+ -6.694,
+129.829,
+157.8,
+4.6 
+],
+[
+ 59.309,
+-151.993,
+54.4,
+4.3 
+],
+[
+ 33.208,
+-115.546,
+null,
+2.7 
+],
+[
+ 18.134,
+-67.691,
+10,
+2.9 
+],
+[
+ 33.213,
+-115.553,
+1.8,
+3.1 
+],
+[
+ -43.625,
+172.426,
+14.6,
+4.2 
+],
+[
+ 33.203,
+-115.55,
+1.9,
+3.5 
+],
+[
+ 36.068,
+-120.012,
+62,
+2.6 
+],
+[
+ -41.395,
+-87.729,
+10.1,
+5 
+],
+[
+ -56.086,
+-26.799,
+37.3,
+5.3 
+],
+[
+ 61.78,
+-150.364,
+8.5,
+2.5 
+],
+[
+ -22.154,
+-179.564,
+584.6,
+5.1 
+],
+[
+ 19.921,
+-64.467,
+12,
+3.2 
+],
+[
+ 31.581,
+-116.107,
+14.7,
+2.8 
+],
+[
+ 12.057,
+-73.444,
+26.1,
+5 
+],
+[
+ -11.601,
+113.644,
+4.9,
+4.4 
+],
+[
+ 19.259,
+-66.158,
+65,
+3.2 
+],
+[
+ 19.35,
+-66.01,
+23,
+2.9 
+],
+[
+ 13.772,
+50.352,
+11.2,
+4.5 
+],
+[
+ 15.075,
+-92.292,
+118.4,
+4.4 
+],
+[
+ 5.816,
+-77.412,
+16.5,
+4.7 
+],
+[
+ 52.89,
+-168.728,
+45.8,
+4.3 
+],
+[
+ 52.293,
+160.192,
+57.4,
+4.6 
+],
+[
+ 34.858,
+-119.239,
+12.7,
+3.2 
+],
+[
+ 52.322,
+160.052,
+60.8,
+4.7 
+],
+[
+ 38.747,
+144.395,
+35,
+4.5 
+],
+[
+ 37.111,
+141.236,
+35,
+4.5 
+],
+[
+ 35.365,
+141.456,
+35.1,
+4.4 
+],
+[
+ -8.785,
+117.548,
+155,
+4.3 
+],
+[
+ 51.515,
+-176.36,
+31.4,
+2.7 
+],
+[
+ -57.578,
+-6.931,
+12.8,
+5.7 
+],
+[
+ -53.004,
+22.413,
+16.5,
+5 
+],
+[
+ 42.773,
+-111.207,
+4.8,
+3.6 
+],
+[
+ -52.881,
+10.365,
+10,
+5 
+],
+[
+ 26.838,
+144.137,
+17.7,
+4.7 
+],
+[
+ -53.058,
+22.177,
+15.8,
+5.3 
+],
+[
+ 37.05,
+28.422,
+41.6,
+4.9 
+],
+[
+ 8.616,
+141.522,
+41.1,
+4.6 
+],
+[
+ 0.041,
+100.393,
+157.2,
+4.7 
+],
+[
+ 33.373,
+-116.841,
+6.6,
+2.9 
+],
+[
+ 52.401,
+-164.556,
+25.5,
+3.4 
+],
+[
+ 40.399,
+141.821,
+25.9,
+4.9 
+],
+[
+ -4.873,
+144.576,
+68.2,
+5.2 
+],
+[
+ -11.303,
+165.115,
+7.3,
+4.8 
+],
+[
+ 39.508,
+-121.988,
+22.6,
+2.6 
+],
+[
+ 53.833,
+-164.138,
+41.1,
+2.7 
+],
+[
+ 33.658,
+-118.372,
+1.2,
 4 
 ],
 [
@@ -1841,10 +2615,10 @@ function gvisDataEQ () {
 4.5 
 ],
 [
- 58.588,
--152.512,
-8.2,
-3 
+ 58.648,
+-152.537,
+4.7,
+2.7 
 ],
 [
  -10.88,
@@ -1859,15 +2633,9 @@ function gvisDataEQ () {
 5.3 
 ],
 [
- 60.581,
--151.157,
-26.5,
-2.6 
-],
-[
- 51.59,
--176.113,
-35.7,
+ 51.49,
+-175.997,
+23.6,
 2.7 
 ],
 [
@@ -1877,10 +2645,10 @@ function gvisDataEQ () {
 4.4 
 ],
 [
- 60.322,
--152.429,
-100.5,
-2.9 
+ 60.387,
+-152.464,
+96.7,
+2.7 
 ],
 [
  32.586,
@@ -1893,6 +2661,12 @@ function gvisDataEQ () {
 -68.557,
 101,
 2.9 
+],
+[
+ 55.505,
+-159.549,
+65.6,
+2.5 
 ],
 [
  -4.546,
@@ -1919,6 +2693,12 @@ function gvisDataEQ () {
 4.8 
 ],
 [
+ 58.456,
+-156.301,
+197,
+2.5 
+],
+[
  1.063,
 97.397,
 34.2,
@@ -1931,22 +2711,22 @@ function gvisDataEQ () {
 4.6 
 ],
 [
+ 66.635,
+-135.821,
+18.9,
+3.6 
+],
+[
  -27.192,
 -178.004,
 147,
 4.9 
 ],
 [
- 51.444,
--176.056,
-22.4,
-2.5 
-],
-[
- 59.81,
--153.605,
-121.7,
-2.9 
+ 59.779,
+-153.386,
+130.8,
+2.8 
 ],
 [
  65.571,
@@ -1955,10 +2735,10 @@ function gvisDataEQ () {
 4.3 
 ],
 [
- 62.866,
--148.828,
-63.7,
-3.2 
+ 62.858,
+-148.7,
+61.2,
+3.1 
 ],
 [
  18.294,
@@ -1979,10 +2759,10 @@ function gvisDataEQ () {
 4.6 
 ],
 [
- 60.039,
--152.666,
-121.3,
-3.3 
+ 60.082,
+-152.549,
+103.3,
+2.9 
 ],
 [
  17.865,
@@ -2015,10 +2795,10 @@ function gvisDataEQ () {
 2.8 
 ],
 [
- -15.613,
--73.132,
-112,
-5.7 
+ -15.59,
+-73.177,
+109.8,
+5.4 
 ],
 [
  -0.556,
@@ -2081,15 +2861,15 @@ function gvisDataEQ () {
 4.3 
 ],
 [
- 62.119,
--150.254,
-8.5,
-3.4 
+ 62.12,
+-150.215,
+53,
+3.3 
 ],
 [
- 51.947,
--171.805,
-11.2,
+ 51.991,
+-171.71,
+13.6,
 2.7 
 ],
 [
@@ -2105,10 +2885,10 @@ function gvisDataEQ () {
 5 
 ],
 [
- 58.647,
--152.71,
-92.9,
-3.4 
+ 58.676,
+-152.556,
+70.6,
+3.3 
 ],
 [
  -27.867,
@@ -2129,10 +2909,16 @@ function gvisDataEQ () {
 4.7 
 ],
 [
- 58.675,
--153.671,
-null,
-2.6 
+ 58.749,
+-153.882,
+9.5,
+2.5 
+],
+[
+ 60.183,
+-152.704,
+109.6,
+2.7 
 ],
 [
  37.095,
@@ -2165,22 +2951,34 @@ null,
 2.8 
 ],
 [
+ 63.377,
+-151.368,
+8.4,
+3.2 
+],
+[
+ 52.481,
+-174.193,
+192.1,
+2.9 
+],
+[
  17.901,
 -67.309,
 8,
 2.7 
 ],
 [
- 58.738,
--153.863,
-11.5,
+ 58.752,
+-153.882,
+11.2,
 2.9 
 ],
 [
- 58.795,
--153.948,
-4,
-4.3 
+ 58.768,
+-153.886,
+12.4,
+4.4 
 ],
 [
  52.778,
@@ -2225,16 +3023,22 @@ null,
 4.8 
 ],
 [
- 19.283,
--155.568,
-5.5,
-2.7 
+ 55.062,
+-159.403,
+24.1,
+2.6 
 ],
 [
- 62.259,
--151.398,
-77.3,
-3.2 
+ 19.267,
+-155.568,
+11.8,
+2.6 
+],
+[
+ 62.266,
+-151.424,
+86.7,
+3 
 ],
 [
  41.047,
@@ -2261,6 +3065,12 @@ null,
 4.9 
 ],
 [
+ 51.951,
+-171.6,
+21.6,
+2.7 
+],
+[
  36.778,
 140.5,
 29,
@@ -2273,10 +3083,10 @@ null,
 4.9 
 ],
 [
- 59.551,
--152.888,
-102.6,
-2.8 
+ 59.585,
+-152.929,
+96.5,
+2.5 
 ],
 [
  -3.003,
@@ -2285,16 +3095,10 @@ null,
 4.4 
 ],
 [
- 63.233,
--150.397,
-100.8,
-2.5 
-],
-[
- 62.305,
--151.1,
-67.3,
-2.7 
+ 62.317,
+-151.153,
+86.5,
+2.6 
 ],
 [
  19.406,
@@ -2303,16 +3107,28 @@ null,
 3.4 
 ],
 [
- 60.812,
--151.758,
-71,
+ 60.83,
+-151.802,
+76.5,
 3.1 
+],
+[
+ 51.247,
+-177.9,
+23.4,
+2.5 
 ],
 [
  -19.872,
 -177.779,
 548.8,
 4.6 
+],
+[
+ 52.224,
+-171.773,
+7.2,
+2.5 
 ],
 [
  10.308,
@@ -2351,22 +3167,22 @@ null,
 4.4 
 ],
 [
- 60.602,
--149.439,
-0.1,
-2.8 
+ 60.684,
+-149.46,
+21,
+2.6 
+],
+[
+ 52.184,
+-171.714,
+9.5,
+3.2 
 ],
 [
  52.508,
 -171.941,
 45,
 5.7 
-],
-[
- 19.343,
--155.036,
-6.1,
-2.5 
 ],
 [
  -7.635,
@@ -2387,16 +3203,28 @@ null,
 4.7 
 ],
 [
- 63.334,
--150.038,
-105.1,
-2.6 
+ 63.341,
+-150.139,
+110.2,
+2.7 
 ],
 [
- 62.911,
--150.837,
-94.8,
-2.8 
+ 55.614,
+-135.279,
+20,
+3 
+],
+[
+ 53.543,
+-167.003,
+78.1,
+2.5 
+],
+[
+ 62.909,
+-150.919,
+102.3,
+2.7 
 ],
 [
  18.569,
@@ -2427,858 +3255,6 @@ null,
 57.813,
 25.2,
 4.4 
-],
-[
- -22.083,
-170.256,
-17.9,
-4.8 
-],
-[
- 27.402,
-57.369,
-10,
-4.1 
-],
-[
- 18.262,
--67.17,
-109,
-3 
-],
-[
- 26.791,
-57.742,
-25.9,
-5.4 
-],
-[
- 39.554,
-73.033,
-41.3,
-4.8 
-],
-[
- -6.459,
-154.228,
-48.1,
-4.8 
-],
-[
- 26.637,
-57.7,
-26,
-4.5 
-],
-[
- 46.637,
-152.647,
-68.9,
-4.8 
-],
-[
- -6.401,
-154.27,
-45,
-4.8 
-],
-[
- 13.563,
--91.285,
-33.4,
-5.8 
-],
-[
- 19.184,
--64.808,
-66,
-3.1 
-],
-[
- 58.794,
--153.92,
-15.2,
-4.5 
-],
-[
- 26.525,
-57.961,
-24.1,
-4.2 
-],
-[
- 18.773,
--67.449,
-8,
-2.8 
-],
-[
- 59.831,
--153.645,
-192,
-2.9 
-],
-[
- 26.92,
-57.677,
-20,
-4.4 
-],
-[
- 69.83,
--146.391,
-49.6,
-4.3 
-],
-[
- 19.469,
--67.796,
-51,
-3 
-],
-[
- 19.381,
--155.243,
-3.5,
-2.8 
-],
-[
- 39.992,
--120.795,
-11.9,
-2.5 
-],
-[
- 26.744,
-57.749,
-19.3,
-4.2 
-],
-[
- 13.676,
--91.303,
-64.6,
-4.3 
-],
-[
- 26.472,
-57.749,
-20.1,
-4.5 
-],
-[
- 26.851,
-57.856,
-10,
-4.5 
-],
-[
- 26.766,
-57.769,
-25,
-5.6 
-],
-[
- 26.691,
-57.52,
-9.6,
-4.6 
-],
-[
- 26.717,
-57.762,
-10,
-4.9 
-],
-[
- 26.754,
-57.677,
-10.1,
-4.9 
-],
-[
- -17.944,
--175.075,
-205.4,
-6.5 
-],
-[
- 54.453,
--161.487,
-9.9,
-2.9 
-],
-[
- -15.763,
--71.534,
-157.8,
-4.3 
-],
-[
- 24.749,
-123.251,
-28.7,
-4.5 
-],
-[
- 50.998,
--177.742,
-17.5,
-2.9 
-],
-[
- 18.311,
--64.875,
-80,
-2.9 
-],
-[
- 26.651,
-57.903,
-23.5,
-4.7 
-],
-[
- -26.159,
--69.345,
-15.4,
-5.4 
-],
-[
- 51.949,
--170.869,
-25.6,
-2.9 
-],
-[
- -3.756,
-129.726,
-40.5,
-4.5 
-],
-[
- 36.178,
-70.855,
-103.3,
-4.4 
-],
-[
- 37.694,
-143.949,
-10,
-4.5 
-],
-[
- 26.73,
-57.66,
-27,
-4.3 
-],
-[
- 26.665,
-57.769,
-24.7,
-4.6 
-],
-[
- 17.913,
--65.953,
-12,
-2.5 
-],
-[
- 26.749,
-57.779,
-22.2,
-5 
-],
-[
- 11.604,
--87.371,
-35,
-4.2 
-],
-[
- 40.331,
--124.591,
-20.2,
-3.7 
-],
-[
- 26.809,
-58.058,
-10,
-4.3 
-],
-[
- 26.555,
-57.696,
-24.7,
-4.3 
-],
-[
- 26.619,
-57.712,
-25,
-4.4 
-],
-[
- 30.108,
-51.636,
-11,
-4 
-],
-[
- 32.822,
-12.442,
-14.8,
-4.7 
-],
-[
- -18.537,
--173.665,
-42.7,
-4.7 
-],
-[
- 26.822,
-57.794,
-25,
-4.7 
-],
-[
- 19.483,
--67.807,
-50,
-3.2 
-],
-[
- 26.919,
-57.53,
-30,
-4.4 
-],
-[
- 44.341,
-148.261,
-108.4,
-4.6 
-],
-[
- 26.788,
-57.944,
-30.2,
-5 
-],
-[
- 26.577,
-57.581,
-25.6,
-4.7 
-],
-[
- 26.685,
-57.941,
-27.3,
-5.3 
-],
-[
- 26.773,
-57.766,
-23.8,
-4.8 
-],
-[
- 26.64,
-57.861,
-25.8,
-4.6 
-],
-[
- 26.812,
-57.8,
-26.5,
-4.5 
-],
-[
- 26.754,
-57.95,
-35,
-4.6 
-],
-[
- -15.895,
--72.424,
-92.7,
-4.7 
-],
-[
- 26.784,
-57.88,
-14,
-6 
-],
-[
- 61.25,
--147.05,
-2.2,
-2.7 
-],
-[
- 30.242,
-102.967,
-12,
-4.4 
-],
-[
- 51.948,
--171.011,
-35.8,
-4.2 
-],
-[
- 30.312,
-102.947,
-17.7,
-4.6 
-],
-[
- 33.531,
--116.447,
-9.9,
-2.5 
-],
-[
- -6.478,
-154.41,
-56.6,
-5 
-],
-[
- 21.908,
-94.716,
-109.5,
-4.3 
-],
-[
- 51.811,
--170.76,
-28.1,
-3.1 
-],
-[
- 14.099,
--91.362,
-89.4,
-5.1 
-],
-[
- 51.111,
--179.403,
-6.8,
-3 
-],
-[
- -28.959,
--13.232,
-7.7,
-5.7 
-],
-[
- -7.548,
-127.81,
-158.1,
-4.4 
-],
-[
- 55.809,
-165.403,
-34,
-4.6 
-],
-[
- 18.95,
--64.379,
-30,
-2.8 
-],
-[
- 51.796,
--176.007,
-13.6,
-3.1 
-],
-[
- -6.175,
-103.67,
-26.5,
-4.8 
-],
-[
- 43.917,
--105.707,
-9.4,
-3.1 
-],
-[
- 52.045,
-177.495,
-12.3,
-2.9 
-],
-[
- 52.391,
-177.665,
-7.1,
-3.1 
-],
-[
- -17.981,
-168.629,
-145.7,
-4.6 
-],
-[
- 17.915,
--65.948,
-12,
-2.8 
-],
-[
- -17.644,
--178.803,
-541,
-4.3 
-],
-[
- 40.424,
--124.442,
-25.8,
-2.5 
-],
-[
- 51.518,
-177.366,
-57.2,
-4.8 
-],
-[
- 15.009,
--92.549,
-88.5,
-4 
-],
-[
- 14.819,
--92.53,
-74.7,
-4.2 
-],
-[
- 19.128,
--65.356,
-11,
-3.2 
-],
-[
- 67.535,
-139.288,
-13.4,
-5.4 
-],
-[
- 55.495,
--160.108,
-64,
-2.8 
-],
-[
- 56.743,
--154.874,
-6.3,
-2.5 
-],
-[
- 40.343,
--124.612,
-22.8,
-2.7 
-],
-[
- -53.107,
-25.676,
-19.3,
-4.7 
-],
-[
- 49.929,
-157.295,
-34.2,
-4.5 
-],
-[
- 37.373,
--121.724,
-8.3,
-3.5 
-],
-[
- 35.759,
--83.912,
-21.8,
-2.5 
-],
-[
- 19.171,
--65.32,
-36,
-3.3 
-],
-[
- 59.543,
--152.77,
-96,
-2.8 
-],
-[
- 60.19,
--146.39,
-2.7,
-2.9 
-],
-[
- -12.142,
--77.049,
-93.5,
-4 
-],
-[
- 51.701,
-179.288,
-80.5,
-2.5 
-],
-[
- 63.75,
--23.224,
-10,
-4.2 
-],
-[
- -0.684,
-123.226,
-23.2,
-4.7 
-],
-[
- 61.623,
--146.535,
-14.6,
-2.5 
-],
-[
- 55.526,
-161.399,
-99.3,
-4.4 
-],
-[
- 33.96,
--118.416,
-12,
-2.9 
-],
-[
- 19.391,
--155.278,
-3,
-2.6 
-],
-[
- 39.141,
-16.082,
-18.5,
-3.4 
-],
-[
- 54.303,
--162.479,
-27,
-2.6 
-],
-[
- 19.785,
--156.197,
-13.8,
-2.8 
-],
-[
- 38.356,
--122.18,
-9.9,
-2.5 
-],
-[
- 16.948,
--97.97,
-21.7,
-4.5 
-],
-[
- 63.727,
--23.069,
-10.2,
-4.7 
-],
-[
- 1.584,
-126.55,
-35.2,
-4.4 
-],
-[
- 4.386,
-123.904,
-470.7,
-4.9 
-],
-[
- 63.604,
--23.744,
-10,
-4.5 
-],
-[
- 27.834,
-63.46,
-11.5,
-4.5 
-],
-[
- 50.946,
-157.744,
-45.6,
-4.3 
-],
-[
- 51.137,
--178.205,
-28.3,
-2.7 
-],
-[
- 18.935,
--64.159,
-41,
-2.9 
-],
-[
- 35.541,
--97.25,
-6,
-2.5 
-],
-[
- -55.793,
--27.251,
-10,
-4.9 
-],
-[
- 18.853,
--67.222,
-9,
-2.7 
-],
-[
- 1.306,
-128.17,
-110.1,
-5 
-],
-[
- 39.973,
--120.795,
-3.5,
-2.9 
-],
-[
- -3.781,
-135.515,
-29.9,
-4.7 
-],
-[
- 10.247,
--62.32,
-45.5,
-4.5 
-],
-[
- 64.065,
--23.081,
-9.8,
-4.2 
-],
-[
- -5.373,
-153.751,
-64.7,
-4.6 
-],
-[
- 18.37,
--64.939,
-96,
-2.5 
-],
-[
- 19.632,
--64.44,
-14,
-3.3 
-],
-[
- 26.848,
-57.823,
-25.7,
-4.9 
-],
-[
- 1.369,
-127.06,
-130.5,
-4.8 
-],
-[
- 54.159,
--164.156,
-25.6,
-2.7 
-],
-[
- 14.366,
--92.617,
-35.1,
-4.1 
-],
-[
- 51.849,
--178.841,
-2.8,
-2.9 
-],
-[
- 54.402,
--165.279,
-172.3,
-2.6 
-],
-[
- 21.564,
-143.014,
-308.7,
-4.3 
 ] 
 ];
 data.addColumn('number','Latitude');
@@ -3369,15 +3345,15 @@ Org <- gvisOrgChart(Regions, options=list(width=600, height=250,
 plot(Org)
 ```
 
-<!-- OrgChart generated in R 3.0.0 by googleVis 0.4.3 package -->
-<!-- Wed May 15 23:04:04 2013 -->
+<!-- OrgChart generated in R 3.0.1 by googleVis 0.4.3 package -->
+<!-- Sun May 19 13:23:41 2013 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataOrgChartID26a27f34d8fa () {
+function gvisDataOrgChartID2f754697222f () {
   var data = new google.visualization.DataTable();
   var datajson =
 [
@@ -3445,8 +3421,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartOrgChartID26a27f34d8fa() {
-  var data = gvisDataOrgChartID26a27f34d8fa();
+function drawChartOrgChartID2f754697222f() {
+  var data = gvisDataOrgChartID2f754697222f();
   var options = {};
 options["width"] =    600;
 options["height"] =    250;
@@ -3454,7 +3430,7 @@ options["size"] = "large";
 options["allowCollapse"] = true;
 
      var chart = new google.visualization.OrgChart(
-       document.getElementById('OrgChartID26a27f34d8fa')
+       document.getElementById('OrgChartID2f754697222f')
      );
      chart.draw(data,options);
     
@@ -3478,9 +3454,9 @@ options["allowCollapse"] = true;
     pkgs.push(chartid);
 
   // Add the drawChart function to the global list of callbacks
-  callbacks.push(drawChartOrgChartID26a27f34d8fa);
+  callbacks.push(drawChartOrgChartID2f754697222f);
 })();
-function displayChartOrgChartID26a27f34d8fa() {
+function displayChartOrgChartID2f754697222f() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -3504,11 +3480,11 @@ function displayChartOrgChartID26a27f34d8fa() {
  </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartOrgChartID26a27f34d8fa"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartOrgChartID2f754697222f"></script>
  
 <!-- divChart -->
   
-<div id="OrgChartID26a27f34d8fa"
+<div id="OrgChartID2f754697222f"
   style="width: 600px; height: 250px;">
 </div>
 
@@ -3550,15 +3526,15 @@ Tree <- gvisTreeMap(Regions, idvar = "Region", parentvar = "Parent", sizevar = "
 plot(Tree)
 ```
 
-<!-- TreeMap generated in R 3.0.0 by googleVis 0.4.3 package -->
-<!-- Wed May 15 23:04:04 2013 -->
+<!-- TreeMap generated in R 3.0.1 by googleVis 0.4.3 package -->
+<!-- Sun May 19 13:23:41 2013 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataTreeMapID26a266914654 () {
+function gvisDataTreeMapID2f756c455fdd () {
   var data = new google.visualization.DataTable();
   var datajson =
 [
@@ -3638,14 +3614,14 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartTreeMapID26a266914654() {
-  var data = gvisDataTreeMapID26a266914654();
+function drawChartTreeMapID2f756c455fdd() {
+  var data = gvisDataTreeMapID2f756c455fdd();
   var options = {};
 options["width"] =    450;
 options["height"] =    320;
 
      var chart = new google.visualization.TreeMap(
-       document.getElementById('TreeMapID26a266914654')
+       document.getElementById('TreeMapID2f756c455fdd')
      );
      chart.draw(data,options);
     
@@ -3669,9 +3645,9 @@ options["height"] =    320;
     pkgs.push(chartid);
 
   // Add the drawChart function to the global list of callbacks
-  callbacks.push(drawChartTreeMapID26a266914654);
+  callbacks.push(drawChartTreeMapID2f756c455fdd);
 })();
-function displayChartTreeMapID26a266914654() {
+function displayChartTreeMapID2f756c455fdd() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -3695,11 +3671,11 @@ function displayChartTreeMapID26a266914654() {
  </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTreeMapID26a266914654"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTreeMapID2f756c455fdd"></script>
  
 <!-- divChart -->
   
-<div id="TreeMapID26a266914654"
+<div id="TreeMapID2f756c455fdd"
   style="width: 450px; height: 320px;">
 </div>
 
@@ -3961,7 +3937,7 @@ sessionInfo()
 ```
 
 ```
-## R version 3.0.0 (2013-04-03)
+## R version 3.0.1 (2013-05-16)
 ## Platform: x86_64-apple-darwin10.8.0 (64-bit)
 ## 
 ## locale:
@@ -3975,7 +3951,7 @@ sessionInfo()
 ## 
 ## loaded via a namespace (and not attached):
 ## [1] digest_0.6.3   evaluate_0.4.3 formatR_0.7    knitr_1.2     
-## [5] markdown_0.5.4 stringr_0.6.2  tools_3.0.0    whisker_0.3-2 
+## [5] markdown_0.5.4 stringr_0.6.2  tools_3.0.1    whisker_0.3-2 
 ## [9] yaml_2.1.7
 ```
 
